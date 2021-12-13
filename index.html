@@ -2,14 +2,87 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akan names</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akan Names</title>
+    <link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
+
+    <div class="header">
+        <nav>
+            <ul>
+                <li><a href="#">About Akan</a></li>
+                <li><a href="#">Get Your Akan Name</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+
+            <div class="text-container">
+
+                <div class="content-side">
+                    <section id="about-akan">
+                        <div>
+                            <h1>Learn a thing or two about the Akan tribe</h1>
+
+                            <p>The Akan people are a historically important ethnic group of West Africa. With over 20 million members the Akans are one of the biggest Ethnic groups in West Africa today.</p>
+                            <p> The Akan are the largest ethnic group in both Ghana and the Ivory Coast.</p>
+                            <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.</p>
+
+                        </div>
+                    </section>
+
+
+
+
+                    <form id="afrmaAkan">
+                        <p> Akan name generator takes your birthday and calculates the day you were born and then depending on your gender outputs your Akan Name.</p>
+
+                        <div class="row">
+                            <a href="#">Find your akan name below<span> &#8595;</span> </a>
+                        </div>
+
+
+                        <div class="pickers">
+                            <div>
+                                <p>Date</p>
+                                <input type="number" id="date" class="input">
+                            </div>
+
+                            <div>
+                                <p>Month</p>
+                                <input type="number" id="month" class="input">
+                            </div>
+
+                            <div>
+                                <p>Year</p>
+                                <input type="number" id="year" class="input">
+                            </div>
+                        </div>
+
+                        <br>
+                        <div>
+                            <input class="form-check-input" type="radio" name="gender" id="gridRadios1" value="male">
+                            <label>Male</label>
+                        </div>
+
+                        <br>
+
+                        <div>
+                            <input class="form-check-input" type="radio" name="gender" id="gridRadios1" value="female" checked>
+                            <label for="">Female</label>
+                        </div>
+
+
+                        <div id="=success-alert" class="alert alert-success d-none" role="alert"></div>
+                        <div id="success-alert" class="alert alert-dismissible fade show" role="alert"></div>
+
+                        <button style="color: rgb(238, 16, 35);" class="btn btn-primary" id="frmAkan">Submit</button>
+                    </form>
+
+                    <script src="index.js"></script>
 </body>
-<script src="js/index.js"></script>
 
 </html>
